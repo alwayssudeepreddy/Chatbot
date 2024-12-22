@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum Guide</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px auto;
+            max-width: 1200px; /* Adjust the max width */
+        }
+        .image-box {
+            width: 45%; /* Set width to make boxes narrower */
+            background-color: #fff;
+            padding: 15px;
+            border: 2px solid #ddd;
+            margin: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .image-box:hover {
+            transform: scale(1.02); /* Adds a hover effect for better engagement */
+        }
+        .images-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .images-wrapper img {
+            width: 48%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+        h1 {
+            font-size: 32px; /* Increased font size for the main heading */
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 24px; /* Increased font size for subheadings */
+            margin-top: 20px;
+        }
+        p {
+            font-size: 18px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Museum Guide</h1>
+    <p>Explore the museum with ease using the blueprint map and directions provided below. Follow the instructions to move seamlessly from one gallery to another.</p>
+
+    <div class="container">
+        <!-- Blueprint Image Section 1 -->
+        <div class="image-box">
+            <h2>Museum Blueprint - Entry</h2>
+            <div class="images-wrapper">
+                <img src="image\a_1.jpg" alt="Museum Entrance">
+                <img src="image\a_2.jpg" alt="Entry Details">
+            </div>
+            <h2>Directions</h2>
+            <p>Start at the main entrance. Take a right after entering to find the museum entry point.</p>
+            <h2>About</h2>
+            <p>The entry section provides a welcoming area with information desks and initial exhibits introducing the museum's history and overview.</p>
+        </div>
+
+        <!-- Blueprint Image Section 2 -->
+        <div class="image-box">
+            <h2>Exhibit Pathway - Section 1</h2>
+            <div class="images-wrapper">
+                <img src="image\b_1.jpg" alt="Section 1 Pathway">
+                <img src="image\b_2.jpg" alt="Entry to Section 1">
+            </div>
+            <h2>Directions</h2>
+            <p>Proceed straight from the entrance towards the first gallery. The entrance to Section 1 is marked by a distinct archway.</p>
+            <h2>About</h2>
+            <p>This section hosts early civilization artifacts, including pottery, tools, and ancient inscriptions.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Blueprint Image Section 3 -->
+        <div class="image-box">
+            <h2>Exhibit Pathway - Section 2</h2>
+            <div class="images-wrapper">
+                <img src="image\c_1.jpg" alt="Section 2 Pathway">
+                <img src="image\c_2.jpg" alt="Left Turn to Section 2">
+            </div>
+            <h2>Directions</h2>
+            <p>Take a left after exiting Section 1 to move towards Section 2, which focuses on medieval history.</p>
+            <h2>About</h2>
+            <p>This area showcases medieval artifacts, including weaponry, armor, and manuscripts from the period.</p>
+        </div>
+
+        <!-- Blueprint Image Section 4 -->
+        <div class="image-box">
+            <h2>Exhibit Pathway - Weapons Section</h2>
+            <div class="images-wrapper">
+                <img src="image\c_1.jpg" alt="Weapons Section Pathway">
+                <img src="image\d_2.jpg" alt="Weapons Exhibit Entry">
+            </div>
+            <h2>Directions</h2>
+            <p>Continue to the left corridor after Section 2 to reach the Weapons Section, where you will find a variety of historical weaponry.</p>
+            <h2>About</h2>
+            <p>The Weapons Section contains a wide range of arms and armory used across different eras, offering an insight into the evolution of military technology.</p>
+        </div>
+    </div>
+</body>
+</html>

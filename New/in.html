@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Titans Ticketing Chatbot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+</head>
+<body>
+
+    
+    <div class="container">
+        <header>
+            <h1>Museum Ticket Booking</h1>
+            <div id="language-switcher"></div>
+        </header>
+        <main id="chat-container">
+            <div id="chat-messages"></div>
+            <div id="options"></div>
+            <div id="user-input" style="display: none;">
+                <input type="text" id="message-input" placeholder="Type your message...">
+                <button id="send-btn">Send</button>
+            </div>
+        </main>
+        <footer>
+            <h3>About Techno Hive</h3>
+            <p>We are committed to enhancing your museum experience with cutting-edge ticketing solutions!</p>
+        </footer>
+    </div>
+    
+    <script src="chatbot.js"></script>
+</body>
+</html>
